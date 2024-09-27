@@ -1,4 +1,4 @@
-# Custom VPN Setup with OpenVPN Access Server on AWS
+# Custom VPN Setup on AWS
 
 ![UserLogin](https://sk10codebase.online/images/Preview.png)
 
