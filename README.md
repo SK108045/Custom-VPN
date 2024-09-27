@@ -1,5 +1,7 @@
 # Custom VPN Setup with OpenVPN Access Server on AWS
 
+![UserLogin](https://sk10codebase.online/images/Preview.png)
+
 This guide provides step-by-step instructions on how to set up a custom VPN using OpenVPN Access Server on an AWS EC2 instance. 
 
 ## Table of Contents
