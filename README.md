@@ -168,6 +168,8 @@ Note: Always ensure you're connecting to your VPN from a secure network. Public 
    ```bash
    sudo systemctl status openvpnas
    ```
+ - You should see an output like this
+   ![Status](https://sk10codebase.online/images/OpenVPNStatus.png) 
 
 3. Verify that the server is listening on the correct ports:
 
