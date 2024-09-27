@@ -142,7 +142,7 @@ This guide provides step-by-step instructions on how to set up a custom VPN usin
    - Import the `.ovpn` file you downloaded
    - Click the connect button to establish a VPN connection
    
-   ![Installation](https://sk10codebase.online/images/Connection.png)
+   ![Installation](https://sk10codebase.online/images/Connection2.png)
 
 7. Verify your connection:
    - Once connected, the OpenVPN Connect app should show a "Connected" status
