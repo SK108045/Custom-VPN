@@ -146,7 +146,8 @@ This github repo provides step-by-step instructions on how to set up your own VP
    
    ![Installation](https://sk10codebase.online/images/OpenVpn.png)
 
-7. Verify your connection:
+
+8. Verify your connection:
    - Once connected, the OpenVPN Connect app should show a "Connected" status
    - You can now browse the internet through your VPN connection
 
