@@ -1,4 +1,4 @@
-# Custom VPN Setup on AWS
+# Custom VPN Setup Using AWS
 
 ![UserLogin](https://sk10codebase.online/images/Preview.png)
 
