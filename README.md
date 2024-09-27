@@ -2,7 +2,7 @@
 
 ![UserLogin](https://sk10codebase.online/images/Preview.png)
 
-This github repo provides step-by-step instructions on how to set up your own VPN using OpenVPN Access Serverand use it on various platforms, including Windows, macOS, Linux, Android, and iOS
+This github repo provides step-by-step instructions on how to set up your own VPN using OpenVPN Access Server and use it on various platforms, including Windows, macOS, Linux, Android, and iOS
 
 ## Table of Contents
 
