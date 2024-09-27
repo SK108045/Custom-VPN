@@ -97,7 +97,7 @@ This guide provides step-by-step instructions on how to set up a custom VPN usin
 1. Open a web browser and navigate to `https://your-instance-public-ip:943/admin`
 2. Log in with the username 'openvpn' and the password you set during initialization
 
-[Screenshot of Admin Login Page]
+![AdminLogin](https://sk10codebase.online/images/AdminLogin.png)
 
 ## Creating Users
 
@@ -107,7 +107,7 @@ This guide provides step-by-step instructions on how to set up a custom VPN usin
 4. Set appropriate permissions (usually "Allow Auto-login" is sufficient)
 5. Click "Save Settings"
 
-[Screenshot of User Creation Page]
+![UserCreation](https://sk10codebase.online/images/UserCreation.png)
 
 ## Connecting to Your VPN
 
@@ -115,24 +115,22 @@ This guide provides step-by-step instructions on how to set up a custom VPN usin
    - Open a web browser and navigate to `https://[Your Instance Public IP]:943/`
    - You'll see a login page similar to this:
    
-   [Insert screenshot of the client login page]
+![UserLogin](https://sk10codebase.online/images/UserLogin.png)
 
 2. Log in with your user credentials:
    - Enter the username and password you created in the Admin UI
    - After logging in, you'll see the client portal:
    
-   [Insert screenshot of the inside of the client page]
-
 3. Download the OpenVPN Connect app:
    - In the client portal, you'll see options to download the OpenVPN Connect app for various platforms
    - Click on the Windows option to download the installer
    
-   [Insert screenshot of the download options if available]
+![InsideUser](https://sk10codebase.online/images/InsideUser.png)
 
 4. Install OpenVPN Connect:
    - Run the downloaded installer and follow the prompts to install OpenVPN Connect on your machine, In this case i used windows.
    
-   [Insert screenshot of the OpenVPN installation process]
+![Installation](https://sk10codebase.online/images/Installation.png)
 
 5. Download your connection profile:
    - In the client portal, you should see an option to download your connection profile
@@ -144,7 +142,7 @@ This guide provides step-by-step instructions on how to set up a custom VPN usin
    - Import the `.ovpn` file you downloaded
    - Click the connect button to establish a VPN connection
    
-   [Insert screenshot of the OpenVPN Connect app showing the connection being established]
+   ![Installation](https://sk10codebase.online/images/Connection.png)
 
 7. Verify your connection:
    - Once connected, the OpenVPN Connect app should show a "Connected" status
@@ -152,8 +150,6 @@ This guide provides step-by-step instructions on how to set up a custom VPN usin
 
 Note: Always ensure you're connecting to your VPN from a secure network. Public Wi-Fi networks can be risky for entering login credentials.
 
-
-[Screenshot of OpenVPN Connect App]
 
 ## Troubleshooting
 
