@@ -66,73 +66,28 @@ This guide provides step-by-step instructions on how to set up a custom VPN usin
 ## Configuring OpenVPN Access Server
 
 1. Initialize OpenVPN Access Server:
-
-Copy
-
-Apply
-
-sudo /usr/local/openvpn_as/bin/ovpn-init --force
-
-This command initializes OpenVPN Access Server, setting up its initial configuration.
-
+   - This command initializes OpenVPN Access Server, setting up its initial configuration.
+      ```bash
+      sudo /usr/local/openvpn_as/bin/ovpn-init --force
+      ```
 2. During the initialization:
-- Accept the EULA
-- Choose the default options for most prompts
-- When asked about the interface, choose the option for all interfaces (usually option 1)
-- Set a strong password for the 'openvpn' user
+   - Accept the EULA
+   - Choose the default options for most prompts
+   - When asked about the interface, choose the option for all interfaces (usually option 1)
+   - Set a strong password for the 'openvpn' user
 
-3. Configure OpenVPN to use your public IP:
+3 .Configuring OpenVPN Access Server with Public IP
 
-Copy
-
-Apply
-
-PUBLIC_IP=$(curl -s http://169.254.169.254/latest/meta-data/public-ipv4)
-
-Retrieves the public IP address of your EC2 instance.
-
-
-Copy
-
-Apply
-
-sudo /usr/local/openvpn_as/scripts/sacli --key "host.name" --value "$PUBLIC_IP" ConfigPut
-
-Sets the hostname of the OpenVPN server to your public IP.
-
-
-Copy
-
-Apply
-
-sudo /usr/local/openvpn_as/scripts/sacli --key "vpn.daemon.0.server_ip_address" --value "$PUBLIC_IP" ConfigPut
-
-Configures the OpenVPN daemon to use your public IP as the server address.
-
-
-Copy
-
-Apply
-
-sudo /usr/local/openvpn_as/scripts/sacli --key "vpn.daemon.0.listen_ip_address" --value "$PUBLIC_IP" ConfigPut
-
-Sets the listen address for the OpenVPN daemon to your public IP.
-
-4. Apply changes and restart the service:
-
-Copy
-
-Apply
-
-sudo /usr/local/openvpn_as/scripts/sacli start
-
-Applies the configuration changes.
-
-
-Copy
-
-Apply
-
-sudo systemctl restart openvpnas
-
-Restarts the OpenVPN Access Server service to ensure all changes take effect.
+- Set the public IP and configure OpenVPN:
+   ```bash
+   PUBLIC_IP=3.82.21.76
+   sudo /usr/local/openvpn_as/scripts/sacli --key "host.name" --value "$PUBLIC_IP" ConfigPut
+   sudo /usr/local/openvpn_as/scripts/sacli --key "vpn.daemon.0.server_ip_address" --value "$PUBLIC_IP" ConfigPut
+   sudo /usr/local/openvpn_as/scripts/sacli --key "vpn.daemon.0.listen_ip_address" --value "$PUBLIC_IP" ConfigPut
+   ```
+- These commands set the public IP for the OpenVPN server, ensuring it uses the correct IP for external connections.
+- Apply changes and restart the service:
+   ```bash
+   sudo /usr/local/openvpn_as/scripts/sacli start
+   sudo systemctl restart openvpnas
+   ```
