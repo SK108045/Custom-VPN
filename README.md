@@ -2,7 +2,7 @@
 
 ![UserLogin](https://sk10codebase.online/images/Preview.png)
 
-This github repo provides step-by-step instructions on how to set up your own VPN using OpenVPN Access Server.
+This github repo provides step-by-step instructions on how to set up your own VPN using OpenVPN Access Serverand use it on various platforms, including Windows, macOS, Linux, Android, and iOS
 
 ## Table of Contents
 
@@ -124,9 +124,9 @@ This github repo provides step-by-step instructions on how to set up your own VP
    - After logging in, you'll see the client portal:
    
 3. Download the OpenVPN Connect app:
-   - In the client portal, you'll see options to download the OpenVPN Connect app for various platforms
-   - Click on the Windows option to download the installer
-   
+   - In the client portal, you'll see options to download the OpenVPN Connect app for various platforms, including Windows, macOS, Linux, 
+     Android, and iOS
+ 
 ![InsideUser](https://sk10codebase.online/images/InsideUser.png)
 
 4. Install OpenVPN Connect:
