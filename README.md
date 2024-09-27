@@ -132,7 +132,7 @@ This github repo provides step-by-step instructions on how to set up your own VP
 4. Install OpenVPN Connect:
    - Run the downloaded installer and follow the prompts to install OpenVPN Connect on your machine, In this case i used windows.
    
-![Installation](https://sk10codebase.online/images/Installation.png)
+![Installation](https://sk10codebase.online/images/InstallationWindow.png)
 
 5. Download your connection profile:
    - In the client portal, you should see an option to download your connection profile
