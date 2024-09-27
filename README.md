@@ -2,7 +2,7 @@
 
 ![UserLogin](https://sk10codebase.online/images/Preview.png)
 
-This github repo provides step-by-step instructions on how to set up your own custom VPN using OpenVPN Access Server .
+This github repo provides step-by-step instructions on how to set up your own VPN using OpenVPN Access Server.
 
 ## Table of Contents
 
