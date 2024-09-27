@@ -130,7 +130,7 @@ This github repo provides step-by-step instructions on how to set up your own VP
 ![InsideUser](https://sk10codebase.online/images/InsideUser.png)
 
 4. Install OpenVPN Connect:
-   - Run the downloaded installer and follow the prompts to install OpenVPN Connect on your machine, In this case i used windows.
+   - Run the downloaded installer and follow the prompts to install OpenVPN on your machine, In this case i used windows.
    
 ![Installation](https://sk10codebase.online/images/InstallationWindow.png)
 
@@ -150,9 +150,6 @@ This github repo provides step-by-step instructions on how to set up your own VP
 8. Verify your connection:
    - Once connected, the OpenVPN Connect app should show a "Connected" status
    - You can now browse the internet through your VPN connection
-
-Note: Always ensure you're connecting to your VPN from a secure network. Public Wi-Fi networks can be risky for entering login credentials.
-
 
 ## Troubleshooting
 
