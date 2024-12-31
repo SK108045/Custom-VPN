@@ -1,6 +1,6 @@
 # Custom VPN Setup Using AWS
 
-![Preview](https://sk10codebase.online/images/Preview.png)
+![Preview](https://shorturl.sk10codebase.online/images/Preview.png)
 
 This github repo provides step-by-step instructions on how to set up your own VPN using OpenVPN Access Server and use it on various platforms, including Windows, macOS, Linux, Android, and iOS
 
@@ -100,7 +100,7 @@ This github repo provides step-by-step instructions on how to set up your own VP
 1. Open a web browser and navigate to `https://your-instance-public-ip:943/admin`
 2. Log in with the username 'openvpn' and the password you set during initialization
 
-![AdminLogin](https://sk10codebase.online/images/AdminLogin.png)
+![AdminLogin](https://shorturl.sk10codebase.online/images/AdminLogin.png)
 
 ## Creating Users
 
@@ -110,7 +110,7 @@ This github repo provides step-by-step instructions on how to set up your own VP
 4. Set appropriate permissions (usually "Allow Auto-login" is sufficient)
 5. Click "Save Settings"
 
-![UserCreation](https://sk10codebase.online/images/UserCreation.png)
+![UserCreation](https://shorturl.sk10codebase.online/images/UserCreation.png)
 
 ## Connecting to Your VPN
 
@@ -118,7 +118,7 @@ This github repo provides step-by-step instructions on how to set up your own VP
    - Open a web browser and navigate to `https://[Your Instance Public IP]:943/`
    - You'll see a login page similar to this:
    
-![UserLogin](https://sk10codebase.online/images/UserLogin.png)
+![UserLogin](https://shorturl.sk10codebase.online/images/UserLogin.png)
 
 2. Log in with your user credentials:
    - Enter the username and password you created in the Admin UI
@@ -128,12 +128,12 @@ This github repo provides step-by-step instructions on how to set up your own VP
    - In the client portal, you'll see options to download the OpenVPN Connect app for various platforms, including Windows, macOS, Linux, 
      Android, and iOS
  
-![InsideUser](https://sk10codebase.online/images/InsideUser.png)
+![InsideUser](https://shorturl.sk10codebase.online/images/InsideUser.png)
 
 4. Install OpenVPN Connect:
    - Run the downloaded installer and follow the prompts to install OpenVPN on your machine, In this case i used windows.
    
-![Installation](https://sk10codebase.online/images/InstallationWindow.png)
+![Installation](https://shorturl.sk10codebase.online/images/InstallationWindow.png)
 
 5. Download your connection profile:
    - In the client portal, you should see an option to download your connection profile
@@ -145,7 +145,7 @@ This github repo provides step-by-step instructions on how to set up your own VP
    - Import the `.ovpn` file you downloaded
    - Click the connect button to establish a VPN connection
    
-   ![Installation](https://sk10codebase.online/images/OpenVpn.png)
+   ![Installation](https://shorturl.sk10codebase.online/images/OpenVpn.png)
 
 
 8. Verify your connection:
@@ -167,7 +167,7 @@ This github repo provides step-by-step instructions on how to set up your own VP
    sudo systemctl status openvpnas
    ```
  - You should see an output like this
-   ![Status](https://sk10codebase.online/images/OpenVPNStatus.png) 
+   ![Status](https://shorturl.sk10codebase.online/images/OpenVPNStatus.png) 
 
 3. Verify that the server is listening on the correct ports:
 
